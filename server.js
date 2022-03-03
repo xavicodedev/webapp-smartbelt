@@ -7,7 +7,7 @@ var xhr = new XMLHttpRequest();
 
 //Use alternate localhost and the port Heroku assigns to $PORT
 const host = '0.0.0.0';
-const port = process.env.PORT || 8081;
+const port = process.env.PORT || 5000;
 
 
 var request = new XMLHttpRequest();  
