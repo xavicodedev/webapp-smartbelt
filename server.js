@@ -5,6 +5,10 @@ var XMLHttpRequest = require('xhr2');
 var xhr = new XMLHttpRequest();
 
 
+//Use alternate localhost and the port Heroku assigns to $PORT
+const host = '0.0.0.0';
+const port = process.env.PORT || 8081;
+
 
 var request = new XMLHttpRequest();  
 request.open('GET', 'https://service-smartbelt.herokuapp.com/', true);
